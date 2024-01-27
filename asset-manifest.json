@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jira-ticket-clone/static/css/main.bf545035.css",
+    "main.js": "/jira-ticket-clone/static/js/main.a0e1f2be.js",
+    "index.html": "/jira-ticket-clone/index.html",
+    "main.bf545035.css.map": "/jira-ticket-clone/static/css/main.bf545035.css.map",
+    "main.a0e1f2be.js.map": "/jira-ticket-clone/static/js/main.a0e1f2be.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf545035.css",
+    "static/js/main.a0e1f2be.js"
+  ]
+}
