@@ -1,0 +1,10 @@
+.main-cont {
+  min-height: 85vh;
+  background-color: lightyellow;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 1rem;
+  gap: 2rem;
+}

@@ -1,0 +1,64 @@
+.navbar {
+  height: 15vh;
+  background-color: lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.priority-colors-cont {
+  margin: 0 5vw 0 10vw;
+  background-color: gray;
+  height: 7vh;
+  width: 18vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.priority-colors {
+  height: 5vh;
+  width: 4vw;
+  cursor: pointer;
+}
+.tools-cont {
+  background-color: gray;
+  height: 7vh;
+  width: 6vw;
+  display: flex;
+  background-color: whitesmoke;
+}
+.add {
+  cursor: pointer;
+  flex: 1;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.delete {
+  cursor: pointer;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    height: 20vh;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .priority-colors-cont {
+    width: 50vw;
+    height: 5vh;
+  }
+  .priority-colors {
+    width: 10vw;
+    height: 3.5vh;
+  }
+  .tools-cont {
+    width: 25vw;
+    height: 5vh;
+  }
+}

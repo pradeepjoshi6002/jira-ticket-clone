@@ -1,0 +1,65 @@
+.modal-cont {
+  height: 35vh;
+  width: 35vw;
+  background-color: lightgreen;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: calc((85vh - 35vh) / 2);
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.modal-text-area {
+  background-color: whitesmoke;
+  resize: none;
+  border: none;
+  outline: none;
+  width: 92%;
+  height: 100%;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+.modal-priority-colors-cont {
+  width: 8%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: gray;
+  align-items: center;
+}
+.modal-priority-color {
+  cursor: pointer;
+  width: 70%;
+  aspect-ratio: 1;
+}
+.border {
+  width: 60%;
+  outline: 4px solid red;
+  outline-offset: 3px;
+}
+.mobile-add-btn {
+  display: none;
+}
+@media screen and (max-width: 500px) {
+  .modal-cont {
+    height: 35vh;
+    width: 75vw;
+  }
+  .modal-text-area {
+    width: 85%;
+    font-size: 1.5rem;
+  }
+  .modal-priority-colors-cont {
+    width: 15%;
+  }
+  .mobile-add-btn {
+    display: block;
+  }
+  .mobile-add-btn > span {
+    font-size: 3rem;
+    color: white;
+  }
+}
